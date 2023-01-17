@@ -1,5 +1,21 @@
 package org.example.creational.singleton;
 
+/*
+    The code defines a Java class called "Configuration" that implements the Singleton pattern. The class has several
+    private properties such as setting1, setting2, setting3 and a private constructor to prevent direct instantiation
+    of the class.
+    The class has a static method called 'getInstance()' which returns the single instance of the class.
+    This method first checks if an instance of the class already exists, and if not, creates a new instance.
+    This ensures that there is only ever one instance of the class in memory.
+    The class also has getter and setter methods fo each of the private properties.
+    This allows other parts of the application to access and modify the settings contained within the
+    Configuration project.
+    So the class allows to create a singleton object of the Configuration class, which is able to
+    store the settings and can be accessed and modified by other parts of the application through the getter
+    and setter methods.
+
+ */
+
 public class Configuration {
 
     private static Configuration instance;

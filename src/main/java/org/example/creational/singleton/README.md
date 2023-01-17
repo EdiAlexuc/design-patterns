@@ -1,3 +1,5 @@
+#Singleton
+
 The Singleton pattern is a creational design pattern that ensures a class has only one instance, while providing a global access point to this instance.
 
 An example scenario where the SIngleton pattern might be useful is in a system where you have a single configuration object that needs to be accessed by multiple parts of the application. This configuration object might contain information such as database connection settings, API keys or other application-wide settings.
